@@ -1,6 +1,3 @@
-# Brazilian-E-Commerce
-Mage AI Data engineering take-home
-
 # Brazilian E-Commerce Data Engineering Take-Home
 This project implements an end-to-end data pipeline using Mage AI and PostgreSQL to enable business intelligence from raw e-commerce transaction data. The pipeline automates ETL processes for customer segmentation, revenue trend analysis, and product popularity insights.
 
@@ -17,11 +14,11 @@ It was an incredible experience working mainly within the Mage AI user interface
 ## Setup and Installation
 *(may vary depending on machine)*
 
-# 1. Sequence allignment (MUSCLE)
+### 1. Sequence allignment (MUSCLE)
 - blah
 - blah
 
-# 2. blah
+### 2. blah
 
 ## Lessons Learned:
 
