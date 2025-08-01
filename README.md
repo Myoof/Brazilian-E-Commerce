@@ -56,7 +56,7 @@ It was an incredible experience working mainly within the Mage AI user interface
 - (Optional) To troubleshoot, run `psql -U mage -d mage_db` in the Mage AI terminal to enter SQL commands manually
 
 ### 4. Pipeline Execution
-- 
+- Simply set any of the triggers to active and allow it to run until all blocks are executed
 
 
 ## Resources:
