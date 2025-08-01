@@ -51,6 +51,7 @@ default:
 - `mage-ai`
 
 ## Troubleshooting Common Issues
+###These are issues that I ran into, althought depending on the dependencies and local machine it may differ
 
 | Issue                        | Explanation                                                   | Resolution                                                                 |
 |-----------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
