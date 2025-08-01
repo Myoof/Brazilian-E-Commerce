@@ -4,7 +4,7 @@ Architecture.md
 Raw CSV Files → Mage Extract Block → Transform Blocks → Export to PostgreSQL → Analytics Ready Tables
 
 Inline-style: 
-![alt text](https://github.com/https://github.com/Myoof/Brazilian-E-Commerce/pipeline_tree.png "Visual of the Pipeline Tree")
+![alt text](https://github.com/Myoof/Brazilian-E-Commerce/blob/main/pipeline_tree.png "Visual of the Pipeline Tree")
 
 ### Explanation of Each Pipeline Stage
 - Extraction: Load CSVs for orders, payments, etc.
