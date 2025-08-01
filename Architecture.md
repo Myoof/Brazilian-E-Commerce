@@ -1,4 +1,4 @@
-Architecture.md
+#Architecture.md
 
 ### Data Flow Diagram (Text-based)
 Raw CSV Files → Mage Extract Block → Transform Blocks → Export to PostgreSQL → Analytics Ready Tables
