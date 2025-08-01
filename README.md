@@ -33,13 +33,30 @@ It was an incredible experience working mainly within the Mage AI user interface
 ## Setup and Installation
 *(may vary depending on machine)*
 
-### 1. Mage AI Installation
-- run `pip install mage-ai` in terminal
-- blah
+### 1. PostgreSQL Installation/Initialization
 
-### 2. PostgreSQL Installation/Initialization
-- blah
-### 3.  
+### 2. Download MageAiPractice (From this repository)
+- cd to the local folder `MageAIPractice`
+
+### 3. Mage AI Installation and Initialization
+- Run `pip install mage-ai` in terminal
+- Run `createdb mage_db`
+- Run `cd MageAIPractice`
+- Run `mage start MageAIPractice`
+- Navigate in the Mage AI UI to "io_config.yaml"
+  - REPLACE the PostgreSQL section with:
+   `PostgresSQL
+    POSTGRES_CONNECT_TIMEOUT: 10
+    POSTGRES_DBNAME: mage_db
+    POSTGRES_SCHEMA: public # Optional
+    POSTGRES_USER: mage
+    POSTGRES_PASSWORD: mage123
+    POSTGRES_HOST: localhost
+    POSTGRES_PORT: 5432`
+- (Optional) To troubleshoot, run `psql -U mage -d mage_db` in the Mage AI terminal to enter SQL commands manually
+
+### 4. Pipeline Execution
+- 
 
 
 ## Resources:
