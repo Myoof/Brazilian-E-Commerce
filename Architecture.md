@@ -3,7 +3,6 @@ Architecture.md
 ### Data Flow Diagram (Text-based)
 Raw CSV Files → Mage Extract Block → Transform Blocks → Export to PostgreSQL → Analytics Ready Tables
 
-Inline-style: 
 ![alt text](https://github.com/Myoof/Brazilian-E-Commerce/blob/main/pipeline_tree.png "Visual of the Pipeline Tree")
 
 ### Explanation of Each Pipeline Stage
